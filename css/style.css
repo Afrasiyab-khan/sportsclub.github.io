@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #faf9f9;
+}
+.menu img{
+    width: 35%;
+}
+.nav-menu li{
+    margin-left: 15px;
+}
+.top-banner{
+    background-color: #FFF9F4;
+}
+.banner{
+    background-color: #FFF9F4;
+    padding: 50px;
+    margin-top: -65px;
+    padding-top: 200px;
+}
+.casual-shoes img{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.card{
+    border: none;
+    box-shadow: 9px 12px 20px lightgrey;
+    border-radius: 15px;
+}
+.supporting{
+    margin-top: 85px;
+}
+.nike-btn{
+    background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    color: white;
+}
+.nike-btn:hover{
+    background-color: black;
+    color: white;
+}
+.font li{
+    font-size: 30px;
+    margin-right: 25px;
+}
+/* CSS for button hover effect with animation */
+button {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+/* CSS for hover animation */
+.pads-body {
+    overflow: hidden;
+}
+
+.pads-body:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* CSS for hover animation on all three sections */
+.card .card-body,
+.pads .pads-body {
+    overflow: hidden;
+}
+
+.card:hover .card-body,
+.pads:hover .pads-body {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+#carouselVideoExample {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the carousel */
+  }
+  
+  .carousel-inner {
+    max-height: 600px; /* Adjust the maximum height as needed */
+  }
+  
+  .carousel-item video {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 0; /* Adjust the position of the caption as needed */
+  }
+  
+
+/* vedio*/
+.video-container {
+    position: relative;
+}
+
+.video-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.video-container:hover .video-controls {
+    display: block;
+}
