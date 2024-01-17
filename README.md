@@ -16,7 +16,7 @@ To use this template, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/afrasiyab-khan/sportsclub.github.io.git
+git clone https://github.com/Afrasiyab-khan/sportsclub.github.io.git
 ```
 
 2. Open the `index.html` file in your preferred code editor.
